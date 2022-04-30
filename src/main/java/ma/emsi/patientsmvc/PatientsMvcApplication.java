@@ -36,7 +36,7 @@ public class PatientsMvcApplication {
             });
         };
     }
-    @Bean
+    //@Bean
     CommandLineRunner saveUsers(SecurityService securityService){
         return args -> {
           securityService.saveNewUser("doha","1234","1234");

@@ -7,7 +7,8 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Data  @NoArgsConstructor
+@Data
+@NoArgsConstructor
 @AllArgsConstructor
 public class AppRole {
     @Id
